@@ -1,4 +1,4 @@
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Noah Lee 👋
 
 ### 🛠 System Engineer | AI Hardware Enthusiast | NPU Pioneer
 
@@ -24,12 +24,12 @@ I successfully engineered a native (non-Docker) bridge for the **AMD Ryzen AI NP
 ---
 
 ### 📈 GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=tokyonight)
+![Noah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=leeno7786-coder&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leeno7786-coder&layout=compact&theme=tokyonight)
 
 ---
 
 ### 🤝 Let's Connect
-* **LinkedIn:** [Your Profile Link]
-* **Discord:** [Your Handle]
+* **LinkedIn:** [Noah Lee](https://www.linkedin.com/in/noah-lee-aa128a3a0)
+* **Discord:** `leeno7786`
 * **Working on something similar?** Open an issue or hit me up for NPU/XDNA troubleshooting.
