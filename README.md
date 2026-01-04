@@ -1,16 +1,16 @@
-## Hi there 👋
+### 👋 Hi, I'm Noah Lee
 
-<!--
-**leeno7786-coder/leeno7786-coder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Linux Kernel and AI Systems Developer focused on enabling next-generation hardware on open-source platforms.
 
-Here are some ideas to get you started:
+🚀 **Current Focus:**
+* **Platform:** AMD Ryzen AI 7 (Krackan Point) & Ryzen AI 300 (Strix Point).
+* **Project:** Full manual enablement of XDNA 2 NPU on Ubuntu 24.04 (Kernel 6.14).
+* **Goal:** Bridging the gap between bleeding-edge hardware and Linux AI runtimes.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠️ **Tech Stack:**
+* **Languages:** C++, Python, Bash.
+* **AI/ML:** ONNX Runtime, PyTorch, Vitis AI.
+* **Systems:** Linux Kernel Compilation, Device Drivers (XRT), Embedded Systems.
+
+---
+*"Silence is golden, but a successful memory allocation log is priceless."*
