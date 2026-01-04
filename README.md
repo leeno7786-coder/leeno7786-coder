@@ -23,9 +23,13 @@ I successfully engineered a native (non-Docker) bridge for the **AMD Ryzen AI NP
 
 ---
 
+---
+
 ### 📈 GitHub Stats
-![Noah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=leeno7786-coder&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leeno7786-coder&layout=compact&theme=tokyonight)
+![Noah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=leeno7786-coder&show_icons=true&theme=transparent&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leeno7786-coder&layout=compact&theme=transparent&hide_border=true)
+
+---
 
 ---
 
