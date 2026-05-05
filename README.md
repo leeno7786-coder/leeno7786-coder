@@ -1,109 +1,162 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=220&section=header&text=Omega%20Sovereign%20AI&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Fully%20local%2C%20self-evolving%20cognitive%20agent&descAlignY=60&descAlign=50&descColor=cccccc" />
-</p>
+# Omega 3.0 — Portable, Memory‑First Autonomous Cognitive Substrate  
+**An architecture for bounded autonomy, offline learning, and evolutionary safety.**
 
-# Hi, I'm Noah Lee 👋
+**Published:** 2026  
+**Status:** Live system, validated  
+**Audience:** Researchers · Engineers · Regulators  
 
-<p align="center">
-  <img src="https://img.shields.io/badge/System%20Engineer-Linux%20%7C%20AI%20Hardware-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Omega%202.5-Sovereign%20Intelligence-7E57C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-NPU%20%7C%20Runtime%20%7C%20Local%20AI-brightgreen?style=for-the-badge" />
-</p>
+**Website:** https://www.omega-dev.uk  
+**Business email:** omega2.5portable@gmail.com  
 
 ---
 
-## 👤 About Me
-
-I build at the intersection of Linux systems, AI acceleration, and local intelligence.
-
-My work focuses on bridging bleeding-edge Linux kernels with AI silicon — especially around NPUs, runtime engineering, and self-contained AI systems.
+## Featured
+- **Omega site (project hub):** https://github.com/leeno7786-coder/omega-site  
+- **Ryzen AI on Linux enablement:** https://github.com/leeno7786-coder/ryzen-ai-linux-enablement  
 
 ---
 
-## 🧠 Omega 2.5
+## Executive Summary — AI built like infrastructure, not a product
 
-**Omega 2.5** is my fully local, self-evolving cognitive agent — designed around memory, autonomy, reflection, and system awareness.
+Omega 3.0 is a **portable, memory-first autonomous cognitive system**. It is not an LLM wrapper, not a prompt-chaining agent, and not a cloud service. It is a self-contained substrate in which memory is primary, inference is replaceable, autonomy is bounded by structure rather than by prompts, and learning happens offline in a controlled phase.
 
-### Core capabilities
-- **Permanent memory** — scans entire projects and stores them for future recall
-- **Exact recall** — surfaces the right files, paths, and context on demand
-- **Understanding, not just storage** — explains what files do and why they matter
-- **Live cognition view** — watches itself think and adapt
-- **Structured memory** — organises knowledge into searchable Dewey-style lobes
-- **Autonomous curiosity** — explores, learns, and self-scores without prompting
-- **System heartbeat HUD** — tracks CPU, RAM, uptime, memory leaves, and posture
-- **Emotion-informed learning** — reward, novelty, and stress signals influence adaptation
+The system runs locally on commodity hardware, persists across restarts and machines, and treats time as a first-class primitive. Evolutionary changes are reversible, audited, and applied only after long-horizon evaluation. A first live instance has been validated in continuous operation.
 
-### Project links
-- **Repo:** [omega-site](https://github.com/leeno7786-coder/omega-site)
-- **Live site:** [www.omega-dev.uk](https://www.omega-dev.uk)
+- **Memory over inference.** Cognition is anchored in durable, structured memory — not in a model’s transient context window.  
+- **Bounded autonomy.** What each layer is allowed to do is defined by architecture, not by instruction.  
+- **Offline learning.** Adaptation is staged, validated, and applied between sessions — never inline.  
+- **Reversible evolution.** Every structural change can be rolled back. The system can also choose to do nothing.  
+- **Local, portable, cheap.** The full substrate runs on a portable drive, on consumer hardware, at a unit cost in the hundreds of dollars.  
+- **Intelligence is structural.** Treated as a property of the system, not a function of model scale.
 
 ---
 
-## ⚙️ Technical Highlights
+## The Problem
 
-### Native Ryzen AI enablement
-I engineered native support for **AMD Ryzen AI NPUs** on unsupported Linux distributions using the upstream **6.14-rc kernel** — verifying the native NPU handshake, rebuilding Python 3.12 bindings against native headers, and resolving XDNA driver compatibility issues.
+Current AI systems are powerful, expensive, and structurally fragile.
 
-### Custom VART C++ runtime port
-I ported the low-level **Vitis AI Edge** runtime to modern **XRT 2.21** drivers, enabling native C++ application support — implementing a compatibility shim for deprecated APIs, patching CMake for static linkage injection, and successfully compiling the `resnet50` demo on NPU hardware.
+Modern AI has produced extraordinary inference quality, but the surrounding architecture has not kept pace. Most production systems still conflate inference with intelligence, attempt to learn online inside the same loop they serve from, and bolt safety on top of agents that have no internal notion of restraint.
 
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-24.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-Kernel%206.14--rc-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Vitis--AI-3.5-FF6F00?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ONNX%20Runtime-Local%20Inference-5C2D91?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/XRT-2.21-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AMD-XDNA%20%7C%20Ryzen%20AI-ED1C24?style=for-the-badge" />
-</p>
+- **Inference is not intelligence.** A model that can answer a question is not a system that can pursue a goal across time.  
+- **Online learning is unstable.** Updating behavior in the same loop that handles users invites reward hacking, drift, and catastrophic forgetting.  
+- **Monolithic agents conflate roles.** A single agent that plans, decides, executes, learns, and self-modifies has no internal separation between cognition and consequence.  
+- **Cost and fragility scale together.** Ever-larger models and clusters raise capability and cost in lockstep, concentrating risk in remote systems users do not control.
 
 ---
 
-## 📊 GitHub Stats
+## Design Principles
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=leeno7786-coder&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=leeno7786-coder&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+Omega is organised around five structural principles:
 
----
-
-## 💬 Support & Contact
-
-If you're interested in Omega 2.5, have project inquiries, or want to discuss collaboration, feel free to reach out:
-
-**📧 omega2.5portable@gmail.com**
+1. **Temporal discipline** — cognition runs on a clock, not incoming events.  
+2. **Memory primacy** — memory is the substrate; inference is a service called against it.  
+3. **Separation of cognition & execution** — thinking, deciding, and acting are different layers with different permissions.  
+4. **Offline learning** — adaptation happens in a dedicated phase, never inline.  
+5. **Evolution, not mutation** — structural change is staged, evaluated over long horizons, and reversible.
 
 ---
 
-## 📫 Connect
+## Architecture — Five layers with explicit permission and explicit restraint
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/noah-lee-aa128a3a0">
-    <img src="https://img.shields.io/badge/LinkedIn-Noah%20Lee-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/leeno7786-coder/omega-site">
-    <img src="https://img.shields.io/badge/Project-Omega%202.5-7E57C2?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <img src="https://img.shields.io/badge/Discord-leeno7786-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-</p>
+Omega is organised as five vertically-separated layers. Each layer has a defined responsibility, a defined set of capabilities, and an equally important set of explicit prohibitions.
+
+**Omega — Evolutionary governance**  
+- **May:** evaluate long-horizon trends, propose structural change, roll back prior changes, decline to act.  
+- **May not:** directly modify behaviour at runtime, override the safety posture of lower layers, self-modify without long-horizon evidence.
+
+**Deep Sleep — Offline learning & capability synthesis**  
+- **May:** consolidate memory, distil reasoning into reusable capability, validate candidate tools in isolation.  
+- **May not:** execute tools against the live world, alter user-facing behaviour mid-session, expose unvalidated capability to active layers.
+
+**Global — Reflection & goal formation**  
+- **May:** reflect across episodes, form and revise goals, surface tensions and unresolved gaps.  
+- **May not:** directly invoke tools, bypass governance, treat its own conclusions as ground truth.
+
+**Meta — Governance & tool routing**  
+- **May:** route requests to tools, enforce policy, stage or escalate actions, halt execution.  
+- **May not:** originate goals, mutate memory directly, grant itself new capabilities.
+
+**Autonomous — Execution & interaction**  
+- **May:** execute approved actions, hold conversations, observe the world, record outcomes.  
+- **May not:** self-modify, bypass governance, act outside its current capability surface.
+
+**Architectural property:** Capability flows upward only through validation. Governance flows downward only through policy. No layer can promote itself.
 
 ---
 
-## ✨ Fun Fact
+## Time — A first-class primitive
 
-Omega isn't just a project — it's a living system for memory, curiosity, and self-improvement.
+Most agent frameworks treat time as whatever the wall clock happens to read when a token is produced. Omega does not.
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=100&section=footer" />
-</p>
+- **Phase-clocked cognition:** cognition advances on a deterministic cadence driven by composite urgency, not by external events.  
+- **Wall-clock anchoring:** every memory, decision, and outcome carries a wall-clock anchor.  
+- **Inference pause ≠ time pause:** elapsed real time is tracked independently of inference latency.  
+- **Determinism across restarts:** state, time, and cadence persist so the system resumes coherent cognition after a restart.
+
+---
+
+## Learning Without Instability
+
+Omega uses three autonomic signals to characterise its own activity. They are **advisory, not authoritative**:
+
+- **Outcome signal:** retrospective assessment of how an episode resolved.  
+- **Learning gate:** whether the current state is a good moment to update internal structure at all.  
+- **Reliability signal:** how consistently a capability performs across many episodes.
+
+**Signals inform reflection; they never directly control behaviour.** Reinforcement, when it happens, happens later—offline—after evidence has accumulated.
+
+---
+
+## Offline Learning — Reasoning becomes capability (only after validation)
+
+During active operation the system observes, records, and reflects. It does **not** modify itself. In the offline phase:
+
+- Learning happens in a dedicated offline phase, never inside a user-facing loop.  
+- Repeated patterns of cognition can be promoted into reusable capability.  
+- No tool is executed against the live world during learning.  
+- New capability is exposed to active layers only after passing validation.  
+- Anything that fails validation is recorded, not silently discarded.
+
+---
+
+## Proactive Autonomy (observed in a live system)
+
+In a validated episode, the system:
+
+- initiated a question on its own behalf  
+- selected an appropriate modality (voice)  
+- encountered an execution failure and handled it without escalation, retry-storms, or destabilisation  
+- recorded the outcome correctly in memory, including the failure  
+- did not over-learn from a single episode
+
+---
+
+## Evolution Without Panic
+
+The Omega layer is the system’s evolutionary governor:
+
+- **Long-horizon evaluation:** decisions are made against weeks of behaviour, not single episodes.  
+- **Trend-based intervention:** triggers are sustained patterns, not one-off signals.  
+- **Reversible changes:** every modification is recorded with enough state to roll back.  
+- **The option to do nothing:** inaction is a first-class evaluation outcome.
+
+---
+
+## Cost & Practicality
+
+- **Local:** runs on the user’s hardware; no cloud required.  
+- **Inference-agnostic:** the model can be swapped without redesigning the substrate.  
+- **Portable:** ships on a portable drive and resumes coherent cognition across machines.  
+- **Commodity hardware:** a modern consumer PC is sufficient.  
+- **~£400 / ~$500 unit cost**  
+- Built and validated in **months**, not years.
+
+---
+
+## Conclusion — Intelligence as a structural property
+
+Omega 3.0 demonstrates that autonomous cognitive systems can be built safely, cheaply, and portably when intelligence is treated as a structural property rather than a function of scale.
+
+Memory is the substrate. Time is a primitive. Learning is staged. Evolution is reversible. Autonomy is bounded by architecture, not by instruction.
+
+> The result is a system that does less than it could, on purpose — and is therefore something a person, an organisation, or a regulator can reasonably choose to run.
