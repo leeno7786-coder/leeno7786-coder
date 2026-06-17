@@ -26,18 +26,23 @@ The white paper outlines the principles and architecture of a privacy-first, on-
 - Separates perception, memory, reasoning, and planning into auditable modules.
 - Emphasizes reproducibility with deterministic experiment logs and versioned artifacts.
 
+## Read the white paper
+
+Read the full white paper (hosted HTML) here:
+
+- https://www.omega-dev.uk/whitepaper.html
+
+You can also view the project site and repository:
+
+- Site: https://www.omega-dev.uk
+- Repository: https://github.com/leeno7786-coder/omega-site
+
 ## Goals & principles
 
 - Privacy-first: local-only data by default; explicit opt-in for any remote sharing.
 - Self-evolving: modular components that can be extended and fine-tuned locally.
 - Interoperability: designed to integrate with on-device sensors, local storage, and user workflows.
 - Reproducibility & auditability: transparent pipelines, logs, and versioning for trust and research.
-
-## Read the white paper
-
-Read the full white paper and view the site at the Omega repo:
-
-- https://github.com/leeno7786-coder/omega-site
 
 ## Get involved
 
