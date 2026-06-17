@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,45:111827,100:0ea5e9&height=230&section=header&text=Omega%203.0&fontSize=56&fontColor=ffffff&fontAlignY=40&desc=Portable%20memory-first%20cognition" />
+</p>
+
+<p align="center">
+  <a href="https://www.omega-dev.uk"><img alt="Website" src="https://img.shields.io/badge/Website-omega--dev.uk-0ea5e9?style=for-the-badge"></a>
+  <a href="https://github.com/leeno7786-coder/omega-site"><img alt="Repo" src="https://img.shields.io/badge/Repo-omega--site-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/leeno7786-coder/omega-site/actions"><img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-0ea5e9?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/leeno7786-coder/omega-site/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/leeno7786-coder/omega-site?style=for-the-badge"></a>
+</p>
+
 # leeno7786-coder — Omega 2.5: Sovereign Intelligence
 
 Hello — I'm Leeno. I build projects focused on private, local-first intelligence systems. My flagship is Omega 2.5: Sovereign Intelligence — a fully local, self-evolving cognitive agent designed for user sovereignty, privacy, and long-term adaptability.
