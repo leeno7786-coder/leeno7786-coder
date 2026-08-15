@@ -1,67 +1,68 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,45:111827,100:0ea5e9&height=220&section=header&text=Omega%203.0&fontSize=56&fontColor=ffffff&fontAlignY=40&desc=Portable%20memory-first%20cognition" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,45:111827,100:0ea5e9&height=220&section=header&text=Omega%203.0&fontSize=56&fontColor=ffffff&fontAlignY=40&desc=Omega%20AI%20LLC%20—%20Sovereign%20Intelligence&descSize=16" alt="Omega 3.0 banner">
 </p>
 
-<p align="center">
-  <a href="https://www.omega-dev.uk"><img alt="Website" src="https://img.shields.io/badge/Website-omega--dev.uk-0ea5e9?style=for-the-badge"></a>
-  <a href="https://github.com/leeno7786-coder/omega-site"><img alt="Site Repo" src="https://img.shields.io/badge/Repo-omega--site-111827?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/leeno7786-coder/Omega3.0"><img alt="Runtime Repo" src="https://img.shields.io/badge/Runtime-Omega3.0-111827?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/leeno7786-coder/omega-site/actions"><img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-0ea5e9?style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/leeno7786-coder/omega-site/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/leeno7786-coder/omega-site?style=for-the-badge"></a>
-</p>
+# Omega AI LLC — Omega3.0
 
-# leeno7786-coder — Omega 3.0: Sovereign Intelligence
+Building next‑generation AI orchestration and lightweight agents.
 
-I design and build private, local-first intelligence systems. Omega 3.0 is a portable, memory-first autonomous runtime that prioritizes user sovereignty, auditability, and safe offline evolution.
+## Overview
 
----
+Omega AI LLC builds local‑first and production AI systems for cloud and edge deployments. Our flagship platform is Omega3.0 — a modular, memory‑first AI orchestration system designed for robust reasoning, long‑context memory, and multi‑agent workflows. NanoAgent is our ultra‑lightweight agent runtime and CLI/TUI for tiny models and edge use.
 
-## Quick summary
-Omega 3.0 (Sovereign Intelligence) — at a glance:
-- Portable, on-device operation: runs on user hardware with no cloud dependency by default.
-- Memory-first: persistent, time-anchored memory is the primary substrate for cognition and continuity.
-- Offline learning & validation: capability promotion happens in controlled, offline phases with testing and validation.
-- Reversible evolution: changes to models, policies, and state are versioned, auditable, and roll-backable.
-- Layered governance: execution, policy, reflection and evolution are separated to bound autonomy and risk.
-- Inference-agnostic: the architecture supports swapping inference engines or models without rework.
-- User-owned data: logs, artifacts and state are local, inspectable, and under user control.
+This repository is the company overview and index for our public projects.
 
----
+## Website & Contact
 
-## Architecture (high-level)
-Omega is built as a layered stack that enforces safe capability flow and governance:
-- Execution — real-time interaction under strict policy and approvals.
-- Meta / Routing — policy enforcement, request staging and approvals.
-- Reflection / Global — cross-episode analysis, goal formation, and constraint synthesis.
-- Deep Sleep / Offline Learning — capability distillation, validation and safety testing.
-- Evolution / Governance — proposals, audits, and reversible rollouts.
+- Website: https://www.omega2ai.com
+- Email: noahlee@omega2ai.com
+- Company: Omega AI LLC
 
-Design principle: capability only flows upward after validation; governance and policy flow downward to constrain execution.
+For partnership or service inquiries, please contact us at the address above.
 
----
+## Flagship — Omega3.0
 
-## Read the white paper
-- Canonical: https://www.omega-dev.uk/whitepaper.html
-- Project site: https://www.omega-dev.uk
+Omega3.0 is the core orchestration platform developed by Omega AI LLC. Key focus areas:
 
-## Repositories & resources
-- Omega site (white paper + site): https://github.com/leeno7786-coder/omega-site
-- Runtime implementation: https://github.com/leeno7786-coder/Omega3.0
-- Related: https://github.com/leeno7786-coder/ryzen-ai-linux-enablement
+- Modular orchestration of models, tools, and memory systems
+- Long‑context memory and retrieval for sustained agent workflows
+- Multi‑agent coordination and autonomous task execution
+- Scalable deployment across cloud and constrained edge environments
 
----
+Omega3.0 is maintained as a private product. Public feature highlights and demos are available on the website. For technical access or partnership, contact noahlee@omega2ai.com.
+
+## NanoAgent (public)
+
+NanoAgent is an ultra‑lightweight CLI/TUI coding agent built for tiny local models (2B–8B) and compatible with cloud APIs. It is designed for rapid prototyping, local‑first development, and low‑footprint edge deployment.
+
+Highlights:
+
+- Tiny‑model‑first design and compact context handling
+- OpenTUI dashboard (streaming chat, tools, todos, skills)
+- Headless CLI modes for automation and CI
+- Remote sub‑agent support and MCP servers
+- Memory graph, skills system, and security/sandbox defaults
+
+Repository and install instructions: https://github.com/leeno7786-coder/nanoagent
+
+Status: Actively developed; parts of the project are experimental. See the NanoAgent repo README for release notes and installation options.
 
 ## How to engage
-- Report issues, request features, or propose collaborations on the omega-site repository: https://github.com/leeno7786-coder/omega-site/issues
-- Interested in running or reproducing experiments? Open an issue with your platform details so I can help.
+
+- Explore NanoAgent and open issues/PRs at: https://github.com/leeno7786-coder/nanoagent
+- For Omega3.0 access, demos, or commercial inquiries, email noahlee@omega2ai.com or visit https://www.omega2ai.com
+
+## Contributing
+
+Public contributions are accepted for NanoAgent. If you want to contribute or collaborate on Omega3.0, contact us for access and partnership details.
+
+If you want a CONTRIBUTING.md or CODE_OF_CONDUCT added here, open an issue or contact the maintainer.
+
+## License
+
+- NanoAgent (public repo) is distributed under the MIT License — see its repository for details.
+- This company overview repo does not include a LICENSE file by default. If you want a specific license added, tell us which one (MIT, Apache‑2.0, etc.) and we will add it.
 
 ---
 
-## Contact & follow
-- Website: https://www.omega-dev.uk
-- Email: omega2.5portable@gmail.com
-- Follow the repositories for design notes, benchmarks, and release updates.
-
----
-
-*This README summarizes the Omega 3.0 white paper and project resources. For technical details and the complete specification, consult the canonical white paper linked above.*
+© 2026 Omega AI LLC
