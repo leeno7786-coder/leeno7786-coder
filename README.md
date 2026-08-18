@@ -76,7 +76,7 @@ Actively developed; treat current releases as WIP. Issues and PRs welcome.
 
 ### Productized web
 
-**DevCard AI** — AI portfolio generator. Next.js 16, Clerk, Stripe. [devcard-ai-ten.vercel.app](https://devcard-ai-ten.vercel.app)
+**DevCard AI** — AI portfolio generator. Next.js 16, Clerk, Stripe. [www.omega-dev.uk](https://www.omega-dev.uk)
 
 ---
 
@@ -103,7 +103,7 @@ This is not a keyword list. It is what the repos contain.
 
 **Edge & hardware** — AMD Lemonade, Ryzen AI / NPU, GPU lease / hotswap control, local-only inference contracts, Debian and portable Windows packaging.
 
-**Product** — Next.js, React, Vite, Tailwind, Clerk, Stripe, Vercel, GitHub Actions / Pages.
+**Product** — Next.js, React, Vite, Tailwind, Clerk, Stripe, Netlify, GitHub Actions / Pages.
 
 **Engineering rails** — architecture tests as contracts, provider/brain boundaries, installers that wire real agent hosts, reversible / auditable autonomy.
 
