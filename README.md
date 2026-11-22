@@ -1,135 +1,104 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,45:111827,100:0ea5e9&height=220&section=header&text=Omega%20AI%20LLC&fontSize=52&fontColor=ffffff&fontAlignY=40&desc=Sovereign%20intelligence%20—%20local-first,%20memory-first,%20bounded%20autonomy&descSize=16" alt="Omega AI LLC banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1220,45:111827,100:0ea5e9&height=210&section=header&text=Noah%20Lee%20%7C%20Omega%20AI&fontSize=43&fontColor=ffffff&fontAlignY=40&desc=AI%20systems%20that%20work%20in%20the%20real%20world&descSize=16" alt="Noah Lee | Omega AI LLC">
 </p>
 
-# Omega AI LLC
+# Noah Lee · Founder & Principal Engineer, Omega AI LLC
 
-**Noah Lee** — founder · Louisiana  
-Local-first AI systems for cloud, edge, and on-device deployments. The company builds the architecture; this page is the index for the work.
+**I build AI that can work alongside people — and the software, runtimes, interfaces, and hardware integrations that make it useful.**
 
-[omega2ai.com](https://www.omega2ai.com) · [noahlee@omega2ai.com](mailto:noahlee@omega2ai.com) · [GitHub](https://github.com/leeno7786-coder)
+Louisiana, USA · B.S. Cybersecurity, University of Phoenix (in progress)
 
-We take on metacognitive / agentic systems, custom AI runtimes, local and edge inference, web and Android applications, and Linux / hardware integration. If the problem is “the model is not the product,” that is the work.
+[Omega AI LLC](https://omega2ai.com) · [NanoAI](https://omega-dev.uk) · [Omega Browser Agent on Edge](https://microsoftedge.microsoft.com/addons/detail/djcijkfloeepplakbehdnplfahfhpleo) · [Email](mailto:noahlee@omega2ai.com)
 
----
-
-## What we build
-
-Omega is a **portable, memory-first autonomous cognitive substrate**: bounded autonomy, offline learning, reversible evolution. Not a chat wrapper. A cognition loop with a memory cortex, a local runtime, and swappable hands (tools, browsers, MCP providers, CLIs).
-
-| Layer | Job |
-| --- | --- |
-| **Cognition** | Episode-scoped cascade. Most stages are deterministic. Only a few layers run a model. |
-| **Memory** | Single cortex: gated writes, promotion, contradiction handling, taxonomy, verified recall. |
-| **Runtime** | Local inference contract (portable / NPU / Windows + Linux). The brain does not own the metal. |
-| **Surfaces** | MCP servers, coding agents, voice, embedded browser, product UIs. |
-
-**How we decide if the architecture is right:** if it cannot run offline on a laptop, the product is wrong.
+Omega AI LLC is my engineering company. Its work goes beyond any single model or cognitive architecture: **AI products, agentic software, custom inference runtimes, persistent memory, web applications, Linux systems, edge hardware, automation, and autonomous-systems research.**
 
 ---
 
-## Flagship — Omega 3.0
+## Products and open source
 
-Private product. Python 3.13+. Modular packages. Patent-aware commercial work.
+### NanoAI — a conversational AI coworker for Windows
 
-A single **episode** is the carrier. Walk order:
+**[Explore NanoAI](https://omega-dev.uk)**
 
+NanoAI is a Windows desktop application built around a practical idea: *talk to your computer, work with your AI, and get things done.*
+
+- **Its own computer:** Inside the app, Nano works in a persistent Ubuntu workspace on research, documents, development, and other tasks without taking over the host desktop.
+- **Your computer, in Live Mode:** Switch modes and speak naturally while Nano sees, operates, and verifies actions on your actual Windows desktop. A compact overlay keeps you in control.
+- **One connected system:** Voice, task scheduling, specialist profiles, plugins for external accounts, and a local memory system that learns from task outcomes.
+- **Your choice of inference:** Use a capable model running on your PC (LM Studio, Ollama, llama.cpp, or Lemonade), or opt for hosted inference through Nano Cloud.
+
+**NanoAI is a separate product from NanoAgent.** Its application and cloud service are developed in a private repository; public product information and distribution updates are at [omega-dev.uk](https://omega-dev.uk).
+
+### Omega Browser Agent — AI-assisted browser automation
+
+**[Install from Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/djcijkfloeepplakbehdnplfahfhpleo)**
+
+An Edge side-panel agent that navigates, clicks, types, scrolls, extracts content, and uses screenshots in a dedicated browser workspace. It supports local inference or a cloud model through the user's own OpenRouter key, with task history and user controls.
+
+### NanoAgent — open-source local-model coding agent
+
+**[GitHub](https://github.com/leeno7786-coder/nanoagent)** · **[npm package](https://www.npmjs.com/package/@omega3_0/nanoagent)** · MIT
+
+An independent CLI/TUI coding agent designed for smaller local models, with optional cloud-model backends. Includes a streaming terminal UI, skills, MCP connections, remote sub-agents, workspace permissions, and headless commands.
+
+```bash
+npx @omega3_0/nanoagent
 ```
-Pressure → Global A → Meta A → AUTO → Meta B → Global B → Omega → DeepSleep
-```
 
-- **Pressure** ignites the loop; it does not replace it.
-- **AUTO** and **Omega** are the only model-running layers.
-- **Meta B** and **Global B** are deterministic (no inference).
-- **DeepSleep** closes the episode, resets pressure, reseeds, and consolidates memory.
-- **Guardian** classifies responses and gates memory writes.
-- **Autonomic** layer tracks plasticity, strength, stress, and temporal grounding.
-- Inference stays local via **omega-portable-lite** and the **omega-runtime** Windows gateway against the same brain contract.
-
-Public highlights and demos: [omega2ai.com](https://www.omega2ai.com). Technical access, partnership, or services: [noahlee@omega2ai.com](mailto:noahlee@omega2ai.com).
-
-### Lineage — Omega 2.5
-
-The prior local-first agent (AMD Lemonade Developer Challenge). On-device path on Ryzen AI / Radeon iGPU / XDNA2 NPU: Lemonade Server, Gemma 4 E2B (Qwen 3.5 4B fallback), local voice, embedded Playwright Chromium + Manifest V3 extension, Dewey 3D memory cortex, SetFit routing. That stack is what Omega 3.0 generalized into a substrate.
+NanoAgent is actively developed and **experimental/WIP**. Issues and contributions are welcome.
 
 ---
 
-## Public work
+## Research and architecture
 
-### NanoAgent
+### Odin V1 — ongoing cognitive-systems research
 
-Ultra-lightweight CLI/TUI coding agent for **tiny local models** (2B–8B, especially Qwen 2.5/3.5). Also speaks OpenAI, Anthropic, OpenRouter, and DashScope.
+**Private research prototype**, separate from NanoAI and NanoAgent.
 
-[`leeno7786-coder/nanoagent`](https://github.com/leeno7786-coder/nanoagent) · `@omega3_0/nanoagent` 2.1.5 · MIT
+Odin explores a persistent intelligence substrate: associative and episodic memory, evidence and prediction tracking, replay-based consolidation, and model-assisted abstract reasoning across stored knowledge. The research goal is to generate and investigate new hypotheses and relationships rather than simply retrieve existing answers.
 
-- OpenTUI dashboard — streaming chat, tool diffs, todos, skills
-- Dual-level config, permission modes, workspace sandbox, secret redaction
-- MCP (stdio + HTTP), skills system, memory graph
-- Remote sub-agents; headless `run` / `doctor` / `models` for scripts and CI
-- Native packages: Linux `.deb` and Windows zip (bundled Node 20)
+**Emergent knowledge is the research objective, not a claim of demonstrated general intelligence or independently validated discovery.**
 
-Actively developed; treat current releases as WIP. Issues and PRs welcome.
+### Omega 3.0 — the foundation, now archived
 
-### Company site
+**[Public research archive](https://github.com/leeno7786-coder/omega3-research-archive)** · MIT source archive
 
-[`omega-site`](https://github.com/leeno7786-coder/omega-site) — React 19, TypeScript, Vite, Tailwind, shadcn/ui, Three.js, GSAP. Live at [omega2ai.com](https://www.omega2ai.com).
+Omega 3.0 grew out of earlier Omega 2.5 work and explored a local-first AI operating system: a multi-stage cognition cascade, durable work queues, long-term memory, agent and browser execution, voice, and reflection. It established much of the systems thinking behind later work.
 
-### Productized web
+**Omega 3.0 has been retired as an active product.** The public archive is for source inspection and engineering research; it is not represented as a turnkey installation or a currently supported commercial release. Odin is the distinct successor *research direction*, focused more narrowly on learning and knowledge formation.
 
-**DevCard AI** — AI portfolio generator. Next.js 16, Clerk, Stripe. [www.omega-dev.uk](https://www.omega-dev.uk)
+### Autonomous systems and edge R&D
+
+My broader work includes **Murmur**, an experimental deliberative autonomy architecture for drone and swarm scenarios. Its current scope is prototype/simulation research, with mission-level reasoning kept separate from flight-controller stabilization. I also explore hardware-aware inference on AMD Ryzen AI, GPU/NPU execution, and Windows/Linux integration.
 
 ---
 
-## Platform & enablement
+## What I engineer
 
-Work that sits next to the brain, not inside it:
-
-- **Omega Memory MCP** — standalone local memory server (Dewey taxonomy, graph projections, verified recall). One install wires Cursor, Claude Desktop/Code, VS Code, Gemini, OpenCode, Copilot CLI, Codex, and other MCP hosts.
-- **Omega Google Workspace MCP** — first-party stdio provider behind a hard architecture rail: provider code may only import `mcp_platform` contracts. Tests enforce the boundary.
-- **omega-runtime** — greenfield Windows AI runtime gateway for the Omega 3.0 brain contract (Python, PowerShell, C++).
-- **Ryzen AI / NPU** — portable AMD runtime and Linux enablement (Python + C++).
-
----
-
-## Knowledge we actually ship
-
-This is not a keyword list. It is what the repos contain.
-
-**Languages & systems** — Python 3.12–3.13 (cognition, memory, MCP, runtimes); TypeScript / JavaScript (agents, site, product apps); PowerShell and Bash (installers, Windows + Linux packaging); C++ where the runtime meets the metal.
-
-**AI systems** — metacognitive loops, episode orchestration, long-horizon memory, local LLM serving, tiny-model tool calling, GGUF on-device models, embeddings and classifiers (SetFit, Harrier).
-
-**Agent platforms** — MCP (stdio/HTTP, multi-host installers), skills, CLI/TUI agents, browser agents (Playwright + MV3), voice loops.
-
-**Edge & hardware** — AMD Lemonade, Ryzen AI / NPU, GPU lease / hotswap control, local-only inference contracts, Debian and portable Windows packaging.
-
-**Product** — Next.js, React, Vite, Tailwind, Clerk, Stripe, Netlify, GitHub Actions / Pages.
-
-**Engineering rails** — architecture tests as contracts, provider/brain boundaries, installers that wire real agent hosts, reversible / auditable autonomy.
-
-### Design rules
-
-1. **The brain is not the hands.** Cognition decides. Executors, browsers, MCP providers, and runtimes are limbs behind contracts.
-2. **Most of the loop should not call a model.** Deterministic packs, gates, and journals keep autonomy inspectable.
-3. **Memory is infrastructure.** Taxonomy, promotion gates, and verified recall — not a vector dump in the prompt.
-4. **Local-first is a constraint.** Offline on a laptop NPU, or the architecture is unfinished.
-
----
-
-## Engage
-
-| Need | Where |
+| Discipline | Work |
 | --- | --- |
-| Demos, Omega 3.0 access, custom runtime / agent / hardware work | [noahlee@omega2ai.com](mailto:noahlee@omega2ai.com) · [omega2ai.com](https://www.omega2ai.com) |
-| Use or contribute to the public coding agent | [nanoagent](https://github.com/leeno7786-coder/nanoagent) |
-| Company site source | [omega-site](https://github.com/leeno7786-coder/omega-site) |
+| **AI and cognition** | Agent orchestration, metacognition, associative memory, evidence-aware learning, local and hosted model integration |
+| **Computer-use agents** | Windows desktop automation, browser agents, voice interfaces, tool verification, plugins and MCP |
+| **Runtimes and edge systems** | Python, C++, model serving, GGUF/ONNX, AMD GPU/NPU, PowerShell, Linux deployment |
+| **Product software** | TypeScript/JavaScript, React, Vite, Node.js, APIs, SaaS, authentication, payments, installers |
+| **Robotics R&D** | Mission planning, simulation, degraded-network autonomy, edge decision systems |
 
-Public contributions are accepted on NanoAgent. Collaboration on Omega 3.0 is by access and partnership.
+A few principles guide the work: **the model is only one component of the product; persistent memory needs clear ownership and evidence; actions should be observable and verifiable; and people should remain in control of the machines acting for them.**
+
+## Public repositories
+
+- **[NanoAgent](https://github.com/leeno7786-coder/nanoagent)** — open-source CLI/TUI coding agent for local and cloud models.
+- **[Omega 3.0 Research Archive](https://github.com/leeno7786-coder/omega3-research-archive)** — retired cognition architecture, published for technical study.
+- **[Omega AI company site](https://github.com/leeno7786-coder/omega-site)** — React/TypeScript company website and product presentation.
+
+Other product, infrastructure, and research repositories are private; their absence from the public source list does not mean they are open source.
 
 ---
 
-## License
+## Work with me
 
-This overview repository is MIT. NanoAgent is MIT. Omega 3.0 remains a private product.
+Omega AI LLC takes on **custom AI systems, automation, software and web applications, model runtimes, Linux/hardware integration, and research-driven prototyping**. I work across the stack, from architecture to implementation and deployment.
 
-© 2026 Omega AI LLC
+**[omega2ai.com](https://omega2ai.com)** · **[noahlee@omega2ai.com](mailto:noahlee@omega2ai.com)**
+
+<sub>© 2026 Omega AI LLC. This profile repository is MIT-licensed; linked projects and products have their own terms and licenses.</sub>
